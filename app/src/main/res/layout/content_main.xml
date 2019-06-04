@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STOP" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="Activity"
+        android:ems="10"
+        android:hint="Activity"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="Distance"
+        android:ems="10"
+        android:hint="Distance"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Length of one step (feet)"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="______________________________________________________" />
+
+    <TextView
+        android:id="@+id/currentSteps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Steps in this cycle: 0" />
+
+    <TextView
+        android:id="@+id/totalSteps"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:text="Total number of steps: 0" />
+
+    <TextView
+        android:id="@+id/orientationChange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total change in orientation: 0.0" />
+
+    <TextView
+        android:id="@+id/distanceTraveled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total distance walked: 0ft" />
+
+</LinearLayout>
